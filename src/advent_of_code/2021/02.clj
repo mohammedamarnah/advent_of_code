@@ -47,3 +47,7 @@
        (rest)
        (reduce *)))
 
+(defn solve []
+  {:part_1 (part-1 data)
+   :part_2 (part-2 data)})
+

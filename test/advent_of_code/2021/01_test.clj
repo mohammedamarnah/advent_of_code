@@ -10,3 +10,7 @@
 (t/deftest part-2
   (t/is (= 5 (sol/count-increasing-3 data))))
 
+(t/deftest solution
+  (t/is (= {:part_1 1292
+            :part_2 1262} (sol/solve))))
+
