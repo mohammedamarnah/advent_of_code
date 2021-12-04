@@ -17,5 +17,5 @@
 
 (t/deftest solution
   (t/is (= {:part_1 1690020
-            :part_2 1408487760} (sol/solution))))
+            :part_2 1408487760} (sol/solve))))
 

@@ -5,16 +5,14 @@
 
 (defonce data (io/read-data-int 2021 1))
 
-(defn count-increasing
-  [data]
+(defn count-increasing [data]
   (->> data
        (partition 2 1)
        (map #(reduce < %))
        (filter true?)
        count))
 
-(defn count-increasing-3
-  [data]
+(defn count-increasing-3 [data]
   (->> data
        (partition 3 1)
        (map #(reduce + %))
