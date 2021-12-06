@@ -1,16 +1,10 @@
 (ns advent-of-code.2021.03
-  (:require [advent-of-code.io :as io]))
+  (:require [advent-of-code.io :as io]
+            [advent-of-code.helpers :refer [transpose]]))
 
 ;; https://adventofcode.com/2021/day/3
 
 (defonce data (io/read-data 2021 3))
-
-(defn- transpose [v]
-  (map
-   (fn [index] (map #(get % index) v))
-   (->> (map count v)
-        (apply max)
-        (range))))
 
 (defn compute-gamma-epsilon [current entry]
   (let [ones (or (get entry \1) 0)
