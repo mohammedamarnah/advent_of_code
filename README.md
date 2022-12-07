@@ -8,7 +8,5 @@ Solutions for the [Advent of Code](https://adventofcode.com/) in C++.
 
 ## {2022}
 | Day | Status | Langs
-
 | ----------- | ----------- | -----------
-
 | 01 |⭐️ ⭐️| `cpp`
