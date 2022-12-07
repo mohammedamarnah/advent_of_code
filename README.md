@@ -10,3 +10,4 @@ Solutions for the [Advent of Code](https://adventofcode.com/) in C++.
 | Day | Status | Langs
 | ----------- | ----------- | -----------
 | 01 |⭐️ ⭐️| `cpp`
+| 02 |⭐️ ⭐️| `cpp`
