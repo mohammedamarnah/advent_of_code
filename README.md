@@ -1,10 +1,14 @@
 # advent_of_code
 
-Solutions for the [Advent of Code](https://adventofcode.com/) in ----.
+Solutions for the [Advent of Code](https://adventofcode.com/) in C++.
 
+```bash
+./run.sh {day}
+```
 
-## {YEAR}
-| Day | Status |
-| ----------- | ----------- |
-| 01 |⭐️ ⭐️|
+## {2022}
+| Day | Status | Langs
 
+| ----------- | ----------- | -----------
+
+| 01 |⭐️ ⭐️| `cpp`
